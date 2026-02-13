@@ -109,3 +109,14 @@ span{
     cursor:pointer;
     display:none;
 }
+/*home section code */
+
+.home {
+    display: flex;
+    justify-content:center;
+    align-item:center;
+}
+.home-content h3{
+    font-size:5rem;
+    font-weight:700;
+}
