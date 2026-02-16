@@ -240,4 +240,22 @@ margin-bottom:1.4rem;
         border: 2px solid var(--main-color);
 
 }
+.about-content .heading{
+    text-align:center;
+    font-size:4.5rem;
+}
+
+.about-content{
+    padding:0.3rem;
+
+}
+.about-content h2{
+    text-align:left;
+    line-height:1.2;
+}
+
+.about-content p{
+    font-size:1.6rem;
+    margin:2rem 0.2rem;
+}
 
