@@ -174,6 +174,10 @@ span{
     background: var(--snd-bg-color);
 }
 
+.heading {
+    text-align:center;
+    font-size:6.5rem;
+}
 .services-content{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(350px ,auto));
@@ -199,4 +203,18 @@ height:auto;
 width:100%;
 border-radius:27px;
 margin-bottom:1.4rem;
+}
+
+.row h4{
+    font-size:25px;
+    font-weight:700;
+    margin-bottom:10px;
+    line-height:1.4;
+}
+
+.row:hover {
+    border:1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.04);
+    cursor:pointer;
+
 }
