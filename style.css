@@ -320,3 +320,11 @@ margin-bottom:1.4rem;
     color:var(--main-color);
     margin-left:5px;
 }
+
+.box a:hover {
+    border-bottom:2px solid var(--main-color);
+}
+.box:hover {
+    border:1px solid var(--main-color);
+    transform:translateY(-5px) scale(1.03);
+}
