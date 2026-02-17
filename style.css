@@ -374,3 +374,20 @@ margin-bottom:1.4rem;
     color:#fff;
     transition:0.5s ease-in-out;
 }
+
+.review-item:hover {
+    border: 3px solid var(--main-color);
+    transform:translateY(-5px) scale(1.03);
+}
+
+.review-item h2{
+    font-size:2.8rem;
+}
+.review-item p{
+    font-size:1.5rem;
+    line-height:1.3;
+}
+#Star {
+    color: gold;
+    font-size:2rem; 
+}
