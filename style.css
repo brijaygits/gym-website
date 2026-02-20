@@ -456,28 +456,35 @@ margin-bottom:1.4rem;
 
 @media(max-width:991px){
     #menu-icon{
-        display:block;
+     display: block;
     }
     .navbar{
-        position: absolute;
-        top: 100%;
+      position: fixed;
+        top: 0;
         right: -100%;
-        width: 255px;
-        min-height: 100vh;
+        width: 250px;
+        height: 100vh;
+        background: var(--bg-color);
         display: flex;
-        flex-direction :column;
-        background:var(--bg-color);
-        transition: all 0.5s ease;
-    }
-    .navabr a{
-        display: block;
-        padding:17px;
-        font-size:22px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        transition: 0.5s ease;
+        z-index: 999;
+}
+    .navabr a{  
+             font-size: 2rem;
+
     }
     .navbar.active {
         right:0;
 
     }
+    .navbar a:hover{
+     color: var(--main-color);
+        transform: scale(1.1);
+}
     header{
         padding:2rem 3%;
 
@@ -559,4 +566,5 @@ margin-bottom:1.4rem;
     }
 
 }
+
 
