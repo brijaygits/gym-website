@@ -503,3 +503,41 @@ margin-bottom:1.4rem;
 
     }
 }
+@media(max-width:786px){
+    .home{
+        flex-direction:column;
+    }
+    .home-content h3{
+
+        font-size:4.5rem;
+        margin-top:1.5rem;
+    }
+    .home-content h1{
+        font-size:5rem;
+        margin-top:1.5rem;
+    }
+    .home-content {
+        order:2;
+    }
+    .home-img img{
+        width:70vw;
+        margin-top:4rem ;
+    }
+    .about {
+        flex-direction:column;
+    }
+    .about-img img {
+        width:70vw;
+        margin-top:4rem;
+    }
+    .about-content {
+        text-align:center;
+
+    }
+    .about-content h2 {
+        text-align:center;
+    }
+    .services h2 {
+        margin-bottom:3rem;
+    }
+}
